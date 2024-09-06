@@ -19,5 +19,5 @@ const baseConfig = {
 npm install -D electron
 npm run start
 ```
-![运行效果](./image.png)
+![运行效果](image.png)
 
