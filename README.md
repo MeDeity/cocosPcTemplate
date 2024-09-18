@@ -21,3 +21,12 @@ npm run start
 ```
 ![运行效果](image.png)
 
+### 关于打包
+安装electron-packager
+```bash
+npm install electron-packager -g --registry=https://registry.npm.taobao.org
+```
+打包时
+```bash
+electron-packager . HelloWorld --platform=win32 --arch=x64 --icon=computer.ico --out=./out --asar --app-version=0.0.1 --overwrite --ignore=node_modules --electron-version 5.0.0
+```
